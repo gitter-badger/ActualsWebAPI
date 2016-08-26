@@ -11,7 +11,6 @@ namespace ActualsWebAPI
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
-            /*
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
@@ -24,6 +23,7 @@ namespace ActualsWebAPI
                     id = UrlParameter.Optional
                 }
             );
+            /*
             routes.MapRoute(
                 name: "spa-fallback",
                 url: "{*url}",
@@ -32,7 +32,7 @@ namespace ActualsWebAPI
                     controller = "Home",
                     action = "Index"
                 }
-            );
+            ); 
             */
         }
     }
